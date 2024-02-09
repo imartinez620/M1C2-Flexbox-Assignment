@@ -122,3 +122,26 @@
     justify-content: space-between;
     background-color: #d6d6d6;
 }
+
+/* Flexbox 8 */
+.flexEight{
+    display: flex;
+    height: 400px;
+    background: #eeeeee;
+    width: 300px;
+}
+
+.flexEight > .one{
+    display: flex;
+    align-items: center;
+}
+
+.flexEight > .two{
+    display: flex;
+    align-items: flex-end;
+}
+
+.flexEight > .three{
+    display: flex;
+    align-items: flex-start;
+}

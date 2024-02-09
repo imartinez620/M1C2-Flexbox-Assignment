@@ -44,3 +44,20 @@
     margin: 5px;
     background: #3d8b6d;
 }
+
+/* Flexbox 5 */
+.flexFive{
+    display: flex;
+    width: 350px;
+}
+
+.flexFive .item{
+    background: #0b6643;
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+}
+
+#grow{
+    flex-grow: 2;
+}

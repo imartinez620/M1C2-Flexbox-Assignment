@@ -7,3 +7,11 @@
 .flex {
     margin: 10px;
 }
+
+.flexOne{
+    display: flex;
+}
+
+.flexOne .square{
+    margin: 5px;
+}

@@ -32,3 +32,15 @@
     display: flex;
     flex-direction: row-reverse;
 }
+
+/* Flexbox 4 */
+.flexFour{
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+}
+
+.flexFour .square{
+    margin: 5px;
+    background: #3d8b6d;
+}
